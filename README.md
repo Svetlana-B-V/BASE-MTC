@@ -42,3 +42,13 @@ venv\Scripts\activate
 
 # Активация на macOS / Linux
 source venv/bin/activate
+В терминале выполните:
+
+Bash
+python train.py
+Дождитесь завершения обучения (теперь оно пройдет значительно быстрее).
+
+Затем запустите предсказание:
+
+Bash
+python predict.py
